@@ -58,12 +58,15 @@
 }
 .amount {
     position: absolute;
-    left: 45.91%;
-    right: 32.71%;
-    top: 37.36%;
-    bottom: 2.2%;
-    background-color: white;
-    border-radius: 6px;
+    left: 48.44%;
+    right: 32.52%;
+    top: 73.26%;
+    bottom: 10.08%;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
 
 }
 .in {
