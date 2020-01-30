@@ -82,11 +82,10 @@
 }
 .saldo {
     position: absolute;
-    left: 8.89%;
+    left: 2.89%;
     right: 80.08%;
-    top: 32.95%;
+    top: 25.95%;
     bottom: 50%;
-    
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
@@ -101,9 +100,9 @@
 }
 .euro {
     position: absolute;
-    left: 85.64%;
-    right: 9.18%;
-    top: 35.66%;
+    left: 90.64%;
+    right: 2.18%;
+    top: 31.66%;
     bottom: 50%;
     
     font-family: Roboto Condensed;
