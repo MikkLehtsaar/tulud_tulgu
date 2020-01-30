@@ -9,18 +9,10 @@
 }
 .word {
     background-color: purple;
-    height: 172px;
-    width: 100px;
-}
-.number {
-    background-color: red;
-    height: 172px;
-    width: 100px;
-    vertical-align:top;
-    
-}
-.sign {
-    background-color: seagreen;
-    height: 172px;
-    width: 100px;
+    position: absolute;
+    width: 1420px;
+    height: 103px;
+    left: 58px;
+    top: 192px;
+    border-radius: 6px;
 }
