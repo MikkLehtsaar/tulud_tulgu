@@ -141,3 +141,23 @@
     color: #3D43C5;
     
 }
+.txt_in {
+    position: absolute;
+    left: 7.42%;
+    right: 81.45%;
+    top: 63.57%;
+    bottom: 26.74%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EFF0FB;
+
+
+}
