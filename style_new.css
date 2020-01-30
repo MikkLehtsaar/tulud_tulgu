@@ -108,12 +108,7 @@
 .saldo {
    
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 38px;
-    line-height: 41px;
-    display: flex;
-    align-items: center;
-    
+    font-size: 35px;
     color: #3D43C5;
     
 }
