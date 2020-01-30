@@ -1,17 +1,10 @@
 .fix {
-    position: absolute;
-    width: 1024px;
     height: 406px;
     background-color: #3d43c5;
 }
 .title {
     background-color: #3d43c5;
-    position: absolute;
-    left: 14.26%;
-    right: 14.26%;
-    top: 8.37%;
-    bottom: 65.76%;
-    text-align: center;
+    height: 69px;
 }
 
 .stock {
