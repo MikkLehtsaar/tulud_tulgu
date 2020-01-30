@@ -1,0 +1,26 @@
+.title {
+    background-color: blue;
+    height: 172px;
+}
+
+.stock {
+    background-color: pink;
+    height: 172px;
+}
+.word {
+    background-color: purple;
+    height: 172px;
+    width: 100px;
+}
+.number {
+    background-color: red;
+    height: 172px;
+    width: 100px;
+    vertical-align:top;
+    
+}
+.sign {
+    background-color: seagreen;
+    height: 172px;
+    width: 100px;
+}
