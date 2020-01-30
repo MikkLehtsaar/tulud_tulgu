@@ -45,13 +45,16 @@
     display: inline-block;
 }
 .type {
-    background-color: white;
     position: absolute;
-    left: 0%;
-    right: 55.49%;
-    top: 35.16%;
-    bottom: 2.2%;
-    border-radius: 6px;
+    left: 7.42%;
+    right: 55.37%;
+    top: 73.26%;
+    bottom: 10.08%;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 .amount {
     position: absolute;
