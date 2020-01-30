@@ -1,0 +1,70 @@
+.calc {
+    background-color: #3d43c5;
+}
+
+h1 {
+    color: #EFF0FB;
+    font-size: 20px;
+    text-align: center;
+}
+
+.saldo-container {
+    text-align: center;
+}
+
+.calc-form {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+
+}
+
+.calc-input {
+    display: flex;
+    color: #EFF0FB;
+}
+
+.calc-buttons {
+    display: flex;
+
+}
+
+.calc-input div {
+    margin-right: 10px;
+}
+
+.calc-buttons div {
+    margin-left: 10px;
+}
+
+.button-income {
+    display: flex;
+    flex-direction: column;
+    color: #42FF00 ;
+    
+}
+
+.button-outcome {
+    display: flex;
+    flex-direction: column;
+    color: #F82C1F;
+}
+
+.btn-center {
+    align-self: center;
+}
+
+.row {
+    display: flex;
+}
+
+.rows {
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #EFF0FB;
+}
+
+.row-input {
+    display: flex;
+}
