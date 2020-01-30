@@ -117,3 +117,23 @@
     color: #3D43C5;
     
 }
+
+.balance {
+    position: absolute;
+    left: 85.64%;
+    right: 2.18%;
+    top: 31.66%;
+    bottom: 50%;
+    
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #3D43C5;
+    
+}
