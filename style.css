@@ -5,7 +5,7 @@
     background-color: rgb(55, 0, 255);
 }
 .title {
-    background-color: blue;
+    background-color: wheat;
     position: absolute;
     left: 10.94%;
     right: 14.26%;
@@ -13,7 +13,7 @@
     bottom: 65.76%;
 }
 
-.word {
+.stock {
     background-color: lime;
     position: absolute;
     left: 6.54%;
@@ -30,7 +30,10 @@
     right: 9.86%;
     top: 66.01%;
     bottom: 11.58%;
-
-
-
+}
+.head {
+    font-family: Roboto Condensed;
+    font-size: 35px;
+    display: flex;
+    color: lime;
 }
