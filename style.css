@@ -1,18 +1,36 @@
+.fix {
+    position: absolute;
+    width: 1024px;
+    height: 406px;
+    background-color: rgb(55, 0, 255);
+}
 .title {
     background-color: blue;
-    height: 172px;
+    position: absolute;
+    left: 10.94%;
+    right: 14.26%;
+    top: 8.37%;
+    bottom: 65.76%;
 }
 
-.stock {
-    background-color: pink;
-    height: 172px;
-}
 .word {
-    background-color: purple;
+    background-color: lime;
     position: absolute;
-    width: 1420px;
-    height: 103px;
-    left: 58px;
-    top: 192px;
+    left: 6.54%;
+    right: 9.86%;
+    top: 37.44%;
+    bottom: 37.19%;
     border-radius: 6px;
+   
+}
+.insert {
+    background-color: gray;
+    position: absolute;
+    left: 6.54%;
+    right: 9.86%;
+    top: 66.01%;
+    bottom: 11.58%;
+
+
+
 }
