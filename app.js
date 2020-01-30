@@ -4,13 +4,19 @@ const second = document.querySelector("#b");
 const btnplus = document.querySelector("#plus");
 const btnminus = document.querySelector("#minus");
 const answer = document.querySelector("#answer");
+const balance = document.querySelector("balance")
+
+let balance_val = 0;
+
 // Calc functions
 function plus() {
-    answer.innerText = parseInt(first.value) + parseInt(second.value);
+    balance_val += parseInt(b.value);
+    answer.innerText = balance_val;
 }
 
 function minus() {
-    answer.innerText = parseInt(first.value) - parseInt(second.value);
+    balance_val -= parseInt(b.value);
+    answer.innerText = balance_val;
 }
 
 //Output things
