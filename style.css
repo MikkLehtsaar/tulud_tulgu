@@ -37,3 +37,41 @@
     display: flex;
     color: lime;
 }
+.type {
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    right: 55.49%;
+    top: 35.16%;
+    bottom: 2.2%;
+    border-radius: 6px;
+}
+.amount {
+    position: absolute;
+    left: 45.91%;
+    right: 32.71%;
+    top: 37.36%;
+    bottom: 2.2%;
+    background-color: white;
+    border-radius: 6px;
+
+}
+.in {
+    position: absolute;
+    left: 75.47%;
+    right: 14.14%;
+    top: 37.36%;
+    bottom: 2.2%;
+    border-radius: 6px;
+    background-color: white;
+}
+.out {
+    position: absolute;
+    left: 89.6%;
+    right: 0%;
+    top: 37.36%;
+    bottom: 2.2%;
+    border-radius: 6px;
+    background-color: white;
+
+}
