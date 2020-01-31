@@ -4,12 +4,14 @@
 
 h1 {
     color: #EFF0FB;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
 .saldo-container {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     background: #EFF0FB;
     border: 7px solid #A6A8DC;
     box-sizing: border-box;
@@ -17,6 +19,14 @@ h1 {
     margin-right: 60px;
     margin-left: 60px;
 
+}
+
+.calc-desc {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calc-sum {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .calc-form {
@@ -59,9 +69,21 @@ h1 {
 }
 
 .btn-center {
+    font-family: Arial, Helvetica, sans-serif;
     align-self: center;
 }
-
+.btn-center1 {
+    align-self: center;
+    border: 5px solid #42FF00;
+    width: 29.79px;
+    height: 28px;
+}
+.btn-center2 {
+    align-self: center;
+    border: 5px solid red;
+    width: 29.79px;
+    height: 28px;
+}
 .row {
     display: flex;
 }
@@ -74,4 +96,11 @@ h1 {
 
 .row-input {
     display: flex;
+}
+.insert-txt {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
 }
