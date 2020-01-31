@@ -61,7 +61,14 @@ h1 {
 .btn-center {
     align-self: center;
 }
-
+.btn-center1 {
+    align-self: center;
+    border: 5px solid #42FF00;
+}
+.btn-center2 {
+    align-self: center;
+    border: 5px solid red;
+}
 .row {
     display: flex;
 }
