@@ -13,16 +13,18 @@ function plus() {
     balance_val += parseInt(b.value);
     answer.innerText = balance_val;
     let newRow = document.createElement("div");
+    newRow.classList.add("print-in");
     newRow.innerHTML = "värv" + a.value + b.value + "ikoon";
-    document.querySelector(".rows").appendChild(newRow);
+    document.querySelector(".print-boxs").appendChild(newRow);
 }
 
 function minus() {
     balance_val -= parseInt(b.value);
     answer.innerText = balance_val;
     let newRow = document.createElement("div");
-    newRow.innerHTML = a.value + "-" +b.value;
-    document.querySelector(".rows").appendChild(newRow);
+    newRow.classList.add("print-in");
+    newRow.innerHTML = "värv" + a.value + "-" +b.value + "ikoon";
+    document.querySelector(".print-boxs").appendChild(newRow);
 }
 
 //Output things
