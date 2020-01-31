@@ -120,6 +120,7 @@ h1 {
     height: 33px;
 }
 .saldo-container-box {
+    font-weight: bold;
     padding-left: 85px;
     padding-right: 85px;
 }
