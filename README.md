@@ -6,7 +6,7 @@
   
 ### Siin on meie tiimi tehtud lehekülg: 
   
-(link) 
+https://tak19leemet.itmajakas.ee/tulud_tulgu/ 
   
 Meie tehtud lehekülg arvutab välja saldo ning näitab kust tulevad sissetulekud ja kuhu lähevad väljaminekud. Lehekülg tehti Kuressaare Ametikooli projektipäeava raames.
 
