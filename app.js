@@ -23,7 +23,7 @@ function minus() {
     answer.innerText = balance_val;
     let newRow = document.createElement("div");
     newRow.classList.add("print-in2");
-    newRow.innerHTML = " " + a.value + " " + "-" +b.value + ;
+    newRow.innerHTML = " " + a.value + " " + "-" + b.value;
     document.querySelector(".print-boxs").appendChild(newRow);
 }
 
