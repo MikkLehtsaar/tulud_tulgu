@@ -111,3 +111,7 @@ h1 {
     border-radius: 15px;
     display: inline-block;
 }
+.saldo-container-box {
+    padding-left: 85px;
+    padding-right: 85px;
+}
