@@ -1,5 +1,7 @@
 # Tulud tulgu
 
+ __Väike eelarve kalkulaator.__
+
 ## Info
   
 ### Siin on meie tiimi tehtud lehekülg: 
