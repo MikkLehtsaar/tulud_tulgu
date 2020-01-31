@@ -22,7 +22,7 @@ function minus() {
     balance_val -= parseInt(b.value);
     answer.innerText = balance_val;
     let newRow = document.createElement("div");
-    newRow.classList.add("print-in");
+    newRow.classList.add("print-in2");
     newRow.innerHTML = "värv" + a.value + "-" +b.value + "ikoon";
     document.querySelector(".print-boxs").appendChild(newRow);
 }
