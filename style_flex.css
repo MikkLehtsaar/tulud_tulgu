@@ -169,7 +169,18 @@ h1 {
     font-size: 16px;
     cursor: pointer;
 }
-
+.color {
+    width: 30px;
+    background-color: red;
+}
+.explain {
+    width: 400px;
+    background-color: royalblue;
+}
+.total{
+    width: 250px;
+    background-color: salmon;
+}
   
   /* Darker background on mouse-over */
   .btn:hover {
