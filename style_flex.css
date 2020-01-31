@@ -10,6 +10,13 @@ h1 {
 
 .saldo-container {
     text-align: center;
+    background: #EFF0FB;
+    border: 7px solid #A6A8DC;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+
 }
 
 .calc-form {
