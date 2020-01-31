@@ -104,6 +104,13 @@ h1 {
   }
 .row {
     display: flex;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    height: 30px;
+    width: 1000px;
 }
 
 .rows {
@@ -162,6 +169,7 @@ h1 {
     font-size: 16px;
     cursor: pointer;
 }
+
   
   /* Darker background on mouse-over */
   .btn:hover {
