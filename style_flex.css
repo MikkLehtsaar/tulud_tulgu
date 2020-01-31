@@ -4,12 +4,14 @@
 
 h1 {
     color: #EFF0FB;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
 .saldo-container {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     background: #EFF0FB;
     border: 7px solid #A6A8DC;
     box-sizing: border-box;
@@ -67,6 +69,7 @@ h1 {
 }
 
 .btn-center {
+    font-family: Arial, Helvetica, sans-serif;
     align-self: center;
 }
 .btn-center1 {
