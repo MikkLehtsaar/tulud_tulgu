@@ -14,7 +14,7 @@ function plus() {
     answer.innerText = balance_val;
     let newRow = document.createElement("div");
     newRow.classList.add("print-in");
-    newRow.innerHTML = "värv" + a.value + b.value + "ikoon";
+    newRow.innerHTML = " " + a.value + " " + b.value;
     document.querySelector(".print-boxs").appendChild(newRow);
 }
 
@@ -23,7 +23,7 @@ function minus() {
     answer.innerText = balance_val;
     let newRow = document.createElement("div");
     newRow.classList.add("print-in2");
-    newRow.innerHTML = "värv" + a.value + "-" +b.value + "ikoon";
+    newRow.innerHTML = " " + a.value + " " + "-" +b.value + ;
     document.querySelector(".print-boxs").appendChild(newRow);
 }
 
