@@ -24,7 +24,7 @@ function minus() {
     let newRow = document.createElement("div");
     newRow.classList.add("print-in");
     newRow.innerHTML = "värv" + a.value + "-" +b.value + "ikoon";
-    document.querySelector(".rows").appendChild(newRow);
+    document.querySelector(".print-boxs").appendChild(newRow);
 }
 
 //Output things
