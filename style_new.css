@@ -1,0 +1,114 @@
+.fix {
+    height: 406px;
+
+    background-color: #3d43c5;
+}
+.title {
+    background-color: #3d43c5;
+    height: 69px;
+}
+.title_txt {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.title2 {
+    background-color: #3d43c5;
+    height: 23px;
+}
+
+.stock { 
+    background: #EFF0FB;
+    border: 7px solid #A6A8DC;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 68px;
+    margin-left: 250px;
+    margin-right: 242px;
+}
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    display: flex;
+    color: white;
+    display: inline-block;
+}
+.type {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    width: 381px;
+    height: 43px;
+    
+}
+.amount {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    width: 195px;
+    height: 43px;
+
+}
+.in {
+    background: #EFF0FB;
+    border: 5px solid #42FF00;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+.out {
+    background: #EFF0FB;
+    border: 5px solid #F82C1F;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.txt_in {
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EFF0FB;
+
+
+}
+.txt_amount {
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EFF0FB;
+}
+.insert {
+    padding-left: 60px;
+}
+.insert_txt {
+    padding-top: 50px;
+}
+.saldo {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #3D43C5;
+    
+}

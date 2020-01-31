@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_new.css">
     <title>Tulud</title>
 </head>
 <body>
     <div class="fix">
         <div class=title>
             <div class="title2">
-                <h1 class="head">Tulud tulgu! Väike eelarve kalkulaator</h1>
+              <div class="title_box">
+                <h1 class="title_txt">Tulud tulgu! Väike eelarve kalkulaator</h1>
             </div>
+            <div class="title2"></div>
         </div>
         <div class=stock>
             <h1 class="saldo">SALDO:</h1>
             <h1 class="balance" id="answer"></h1>
-            <h1 class="euro">€</h1>
+            <h1 class="euro"></h1>
     </div>
- <div class=insert></div>
-            <div class=type>
-                <input class=type id="a" type="text"/>
-            </div>
-            <div class="amount">
-                <input class="amount" id="b" type="number"/>
-            </div>
-            <div class="in">
-                <button id="plus">+</button>
-            </div>
-            <div class="out">
-                <button id="minus">-</button>
-            </div>
+            <div class="insert_txt"></div>
+ <div class=insert>
+        <h1 class="txt_in">Sisesta kirjeldus:</h1>
+        <h1 class="txt_amount">Sisesta summa €:</h1>
+
+        <input class=type id="a" type="text"/>
+
+        <input class="amount" id="b" type="number"/>
+        
+        <button class="in" id="plus">+</button>
+
+        <button class="out" id="minus">-</button>
     </div>
     <script src="app.js"></script>
 </body>

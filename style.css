@@ -1,17 +1,10 @@
 .fix {
-    position: absolute;
-    width: 1024px;
     height: 406px;
     background-color: #3d43c5;
 }
 .title {
     background-color: #3d43c5;
-    position: absolute;
-    left: 14.26%;
-    right: 14.26%;
-    top: 8.37%;
-    bottom: 65.76%;
-    text-align: center;
+    height: 69px;
 }
 
 .stock {
@@ -37,6 +30,8 @@
     display: inline-block;
 }
 .type {
+    width: 300px;
+    height: 70px;
     position: absolute;
     left: 7.42%;
     right: 55.37%;
@@ -61,24 +56,40 @@
     border-radius: 15px;
 
 }
-.in {
+.amount_box {
+    width: 100px;
+    height: 100px;
     position: absolute;
-    left: 78.12%;
+    left: 48.44%;
+    right: 32.52%;
+    top: 73.26%;
+    bottom: 10.08%;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.in {
+    width: 55px;
+    height: 58px;
+    position: absolute;
+    left: 76.12%;
     right: 16.02%;
-    top: 68.99%;
+    top: 74.99%;
     bottom: 7.75%;
-    
     background: #EFF0FB;
     border: 5px solid #42FF00;
     box-sizing: border-box;
 }
 .out {
+    width: 55px;
+    height: 59px;
     position: absolute;
     left: 86.33%;
     right: 7.81%;
-    top: 68.99%;
+    top: 74.99%;
     bottom: 7.75%;
-    
     background: #EFF0FB;
     border: 5px solid #F82C1F;
     box-sizing: border-box;
@@ -106,7 +117,7 @@
     position: absolute;
     left: 90.64%;
     right: 2.18%;
-    top: 15%;
+    top: 20%;
     bottom: 50%;
     
     font-family: Arial, Helvetica, sans-serif;
@@ -124,15 +135,15 @@
 
 .balance {
     position: absolute;
-    left: 85.64%;
+    left: 76.64%;
     right: 2.18%;
-    top: 31.66%;
+    top: 18%;
     bottom: 50%;
     
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 50px;
     line-height: 41px;
     display: flex;
     align-items: center;
@@ -140,6 +151,10 @@
     
     color: #3D43C5;
     
+}
+.btn {
+    width: 50px;
+    height: 85px;
 }
 .txt_in {
     position: absolute;
@@ -160,4 +175,22 @@
     color: #EFF0FB;
 
 
+}
+.txt_amount {
+    position: absolute;
+    left: 48.44%;
+    right: 40.43%;
+    top: 63.57%;
+    bottom: 26.74%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EFF0FB;
 }
