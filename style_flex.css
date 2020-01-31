@@ -103,6 +103,7 @@ h1 {
     
   }
 .print-in2 {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     background-color: red;
     border: 1px solid #A3A6F9;
@@ -152,6 +153,7 @@ h1 {
 
 }
 .print-in {
+    font-family: Arial, Helvetica, sans-serif;
     background: greenyellow;
     border: 1px solid #A3A6F9;
     box-sizing: border-box;
