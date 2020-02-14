@@ -1,0 +1,191 @@
+.calc {
+    background-color: #3d43c5;
+}
+
+h1 {
+    color: #EFF0FB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.saldo-container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #EFF0FB;
+    border: 7px solid #A6A8DC;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 50px;
+
+}
+
+.calc-desc {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calc-sum {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calc-form {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 8px;
+
+
+}
+
+.calc-input {
+    display: flex;
+    color: #EFF0FB;
+}
+
+.calc-buttons {
+    display: flex;
+
+}
+
+.calc-input div {
+    margin-right: 10px;
+}
+
+.calc-buttons div {
+    margin-left: 10px;
+}
+
+.button-income {
+    display: flex;
+    flex-direction: column;
+    color: #42FF00 ;
+    
+}
+
+.button-outcome {
+    display: flex;
+    flex-direction: column;
+    color: #F82C1F;
+}
+
+.btn-center {
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+.btn-center1 {
+    align-self: center;
+    border: 5px solid #42FF00;
+    width: 29.79px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-center1:hover {
+    border-color: rgb(92, 184, 58);
+    
+  }
+
+.btn-center2 {
+    align-self: center;
+    border: 5px solid red;
+    width: 29.79px;
+    height: 28px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-center2:hover {
+    border-color: rgb(155, 52, 52);
+    
+  }
+.print-in2 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: red;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    height: 30px;
+    width: 1200px;
+}
+
+.rows {
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #EFF0FB;
+}
+
+.row-input {
+    display: flex;
+}
+.insert-txt {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    width: 351px;
+    height: 33px;
+}
+.insert-amount {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    width: 250px;
+    height: 33px;
+}
+.saldo-container-box {
+    font-weight: bold;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-top: 10px;
+}
+.print-boxs {
+    padding-left: 60px;
+    padding-top: 50px;
+
+}
+.print-in {
+    font-family: Arial, Helvetica, sans-serif;
+    background: greenyellow;
+    border: 1px solid #A3A6F9;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: inline-block;
+    width: 1200px;
+    height: 33px;
+
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.color {
+    width: 30px;
+    background-color: red;
+}
+.explain {
+    width: 400px;
+    background-color: royalblue;
+}
+.total{
+    width: 250px;
+    background-color: salmon;
+}
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #3d43c5;
+}
